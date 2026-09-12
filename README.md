@@ -30,8 +30,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c,cpp,python,bash,arduino,linux,git&theme=dark"/>
-    <img alt="Tech stack" src="https://skillicons.dev/icons?i=c,cpp,python,bash,arduino,linux,git&theme=light"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c%2Ccpp%2Cpython%2Cbash%2Carduino%2Clinux%2Cgit&theme=dark"/>
+    <img alt="Tech stack" src="https://skillicons.dev/icons?i=c%2Ccpp%2Cpython%2Cbash%2Carduino%2Clinux%2Cgit&theme=light"/>
   </picture>
 </p>
 
