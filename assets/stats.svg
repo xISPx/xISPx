@@ -19,7 +19,7 @@
 <text class="title" x="28" y="40">GitHub Stats</text>
 <rect class="accent" x="28" y="49" width="42" height="3" rx="1.5"/>
 <text class="lbl" x="36" y="92">Public repos</text>
-<text class="val" x="36" y="122">5</text>
+<text class="val" x="36" y="122">6</text>
 <text class="lbl" x="236" y="92">Stars earned</text>
 <text class="val" x="236" y="122">1</text>
 <text class="lbl" x="36" y="150">Followers</text>
