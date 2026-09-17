@@ -1,3 +1,5 @@
+<p align="center"><sub><b>English</b> · <a href="README.ru.md">Русский</a></sub></p>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,50:8b5cf6,100:06b6d4&height=200&section=header&text=Hi%20there%2C%20I%27m%20xISPx&fontSize=55&fontColor=ffffff&animation=fadeIn&desc=Embedded%20Systems%20%E2%80%A2%20IoT%20%E2%80%A2%20Automation&descSize=18&descAlignY=70&descAlign=center" width="100%" alt="header"/>
 
 <p align="center">
@@ -7,13 +9,14 @@
 </p>
 
 <p align="center">
-  <img alt="Typing SVG" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=8B5CF6&center=true&vCenter=true&width=560&lines=ESP32-S3+smartwatch+firmware;LVGL+UI+on+touch+displays;Automation+with+Python+%26+Bash;Always+learning+something+new"/>
+  <img alt="Typing SVG" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=8B5CF6&center=true&vCenter=true&width=560&lines=ESP32-S3+smartwatch+firmware;LVGL+UI+on+touch+displays;Browser+games+in+vanilla+JS;Automation+with+Python+%26+Bash"/>
 </p>
 
 ## 🚀 About me
 
 - 🔧 Building a **smartwatch prototype** on ESP32-S3 with a 2.06" AMOLED touchscreen (Waveshare)
 - 🖥️ Designing touch UIs with **LVGL** — round-screen layouts, complications, double buffering
+- 🕹️ Made **Igroteka** — 50 browser mini-games in vanilla JS, no build step
 - ⚙️ Automating everything with **Bash** and **Python**
 - 📡 PlatformIO + Arduino framework, I²C/QSPI peripherals, PMUs, IMUs, audio codecs
 
@@ -22,7 +25,9 @@
 | Project | What it is |
 | --- | --- |
 | [ESP32-S3-Touch-AMOLED-2.06](https://github.com/xISPx/ESP32-S3-Touch-AMOLED-2.06) | Smartwatch firmware: 2.06" AMOLED, LVGL, AXP2101 PMU, IMU, audio codec |
+| [Igroteka](https://github.com/xISPx/Igroteka) — [▶ play online](https://xispx.github.io/Igroteka/) | 50 mini-games in vanilla JS: neon hub, RU/EN, sound, saved high scores |
 | [WT32_SC01_Plus_LVGL](https://github.com/xISPx/WT32_SC01_Plus_LVGL) | LVGL 9 demo on the WT32-SC01 Plus touch display |
+| [zcode-russifier](https://github.com/xISPx/zcode-russifier) | Russian localization for ZCode Desktop on Windows — ready installer in Releases |
 | [Image-Converter](https://github.com/xISPx/Image-Converter) | Python CLI for batch image conversion and resizing |
 | [lamp-automation](https://github.com/xISPx/lamp-automation) | One-shot LAMP stack installer for Ubuntu |
 
@@ -30,8 +35,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c%2Ccpp%2Cpython%2Cbash%2Carduino%2Clinux%2Cgit&theme=dark"/>
-    <img alt="Tech stack" src="https://skillicons.dev/icons?i=c%2Ccpp%2Cpython%2Cbash%2Carduino%2Clinux%2Cgit&theme=light"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c%2Ccpp%2Cpython%2Cbash%2Cjs%2Carduino%2Clinux%2Cgit&theme=dark"/>
+    <img alt="Tech stack" src="https://skillicons.dev/icons?i=c%2Ccpp%2Cpython%2Cbash%2Cjs%2Carduino%2Clinux%2Cgit&theme=light"/>
   </picture>
 </p>
 

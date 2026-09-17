@@ -126,10 +126,12 @@ def stats_svg(repos, stars, followers, joined):
 def languages_svg(langs):
     total = sum(langs.values()) or 1
     ranked = sorted(langs.items(), key=lambda kv: kv[1], reverse=True)
-    shown = [kv for kv in ranked if 100.0 * kv[1] / total >= 0.1][:6]
+    shown = [kv for kv in ranked if 100.0 * kv[1] / total >= 0.1][:8]
 
     bar_x, bar_w, bar_y, bar_h = 28, 364, 58, 14
-    parts = [card(420, 192, "Most Used Languages")]
+    legend_rows = max(1, (len(shown) + 1) // 2)
+    height = max(192, 104 + 40 * (legend_rows - 1) + 30)
+    parts = [card(420, height, "Most Used Languages")]
     parts.append(f'<clipPath id="round"><rect x="{bar_x}" y="{bar_y}" width="{bar_w}" '
                  f'height="{bar_h}" rx="7"/></clipPath>\n')
     parts.append('<g clip-path="url(#round)">\n')
@@ -142,9 +144,9 @@ def languages_svg(langs):
         cursor += seg_w
     parts.append("</g>\n")
 
-    cols, rows = (36, 226), (104, 144)
+    cols = (36, 226)
     for i, (name, count) in enumerate(shown):
-        x, y = cols[i % 2], rows[i // 2]
+        x, y = cols[i % 2], 104 + 40 * (i // 2)
         color = LANG_COLORS.get(name, LANG_COLORS["Other"])
         pct = f"{100.0 * count / total:.1f}%"
         parts.append(f'<circle cx="{x + 4}" cy="{y - 4}" r="5" fill="{color}"/>\n')
