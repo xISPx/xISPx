@@ -106,15 +106,28 @@ def card(width, height, title):
     )
 
 
-def stats_svg(repos, stars, followers, joined):
+def ranked_languages(langs):
+    total = sum(langs.values()) or 1
+    ranked = sorted(langs.items(), key=lambda kv: kv[1], reverse=True)
+    shown = [kv for kv in ranked if 100.0 * kv[1] / total >= 0.1][:8]
+    return ranked, shown, total
+
+
+def card_height(entries):
+    legend_rows = max(1, (entries + 1) // 2)
+    return max(192, 104 + 40 * (legend_rows - 1) + 30)
+
+
+def stats_svg(repos, stars, followers, joined, height):
     tiles = [
         ("Public repos", str(len(repos)), "val"),
         ("Stars earned", str(stars), "val"),
         ("Followers", str(followers), "val"),
         ("Joined GitHub", joined.strftime("%b %Y"), "val-sm"),
     ]
-    cols, rows = (36, 236), (92, 150)
-    parts = [card(420, 192, "GitHub Stats")]
+    dy = (height - 192) // 2
+    cols, rows = (36, 236), (92 + dy, 150 + dy)
+    parts = [card(420, height, "GitHub Stats")]
     for i, (label, value, cls) in enumerate(tiles):
         x, y = cols[i % 2], rows[i // 2]
         parts.append(f'<text class="lbl" x="{x}" y="{y}">{label}</text>\n')
@@ -123,14 +136,10 @@ def stats_svg(repos, stars, followers, joined):
     return "".join(parts)
 
 
-def languages_svg(langs):
-    total = sum(langs.values()) or 1
-    ranked = sorted(langs.items(), key=lambda kv: kv[1], reverse=True)
-    shown = [kv for kv in ranked if 100.0 * kv[1] / total >= 0.1][:8]
+def languages_svg(langs, height):
+    ranked, shown, total = ranked_languages(langs)
 
     bar_x, bar_w, bar_y, bar_h = 28, 364, 58, 14
-    legend_rows = max(1, (len(shown) + 1) // 2)
-    height = max(192, 104 + 40 * (legend_rows - 1) + 30)
     parts = [card(420, height, "Most Used Languages")]
     parts.append(f'<clipPath id="round"><rect x="{bar_x}" y="{bar_y}" width="{bar_w}" '
                  f'height="{bar_h}" rx="7"/></clipPath>\n')
@@ -187,10 +196,13 @@ def main():
             langs[name] = langs.get(name, 0) + count
     joined = datetime.fromisoformat(u["created_at"].replace("Z", "+00:00"))
 
+    _, shown, _ = ranked_languages(langs)
+    height = card_height(len(shown))
+
     (base / "stats.svg").write_text(
-        stats_svg(repos, stars, u["followers"], joined), encoding="utf-8")
-    (base / "languages.svg").write_text(languages_svg(langs), encoding="utf-8")
-    print(f"written: {base}/stats.svg, {base}/languages.svg")
+        stats_svg(repos, stars, u["followers"], joined, height), encoding="utf-8")
+    (base / "languages.svg").write_text(languages_svg(langs, height), encoding="utf-8")
+    print(f"written: {base}/stats.svg, {base}/languages.svg (height={height})")
 
 
 if __name__ == "__main__":
