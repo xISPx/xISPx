@@ -1,14 +1,20 @@
-<p align="center"><sub><b>English</b> · <a href="README.ru.md">Русский</a></sub></p>
+<p align="right"><sub><b>English</b> · <a href="README.ru.md">Русский</a></sub></p>
 
-# Hi, I'm xISPx
+<p align="center">
+  <img width="100%" alt="xISPx — Embedded &amp; IoT developer" src="assets/banner.svg"/>
+</p>
 
-Embedded & IoT developer. I build smartwatch firmware on ESP32-S3 with LVGL UIs, browser mini-games in vanilla JS, and automation tooling in Python and Bash.
+## Projects
 
-## About
+<p align="center">
+  <a href="https://github.com/xISPx/Igroteka"><img width="32.5%" alt="Igroteka — 15 mini-games in vanilla JS, play online" src="assets/card-igroteka.svg"/></a><a href="https://github.com/xISPx/ESP32-S3-Touch-AMOLED-2.06"><img width="32.5%" alt="ESP32-S3 smartwatch firmware — LVGL 9, AMOLED, voice AI" src="assets/card-watch.svg"/></a><a href="https://github.com/xISPx/zcode-russifier"><img width="32.5%" alt="ZCode Russifier — full Russian UI for ZCode Desktop" src="assets/card-russifier.svg"/></a>
+</p>
 
-- 🔧 Smartwatch prototype on ESP32-S3 — AMOLED 2.06", LVGL, PMU, IMU, audio codec
-- 🕹️ [Igroteka](https://github.com/xISPx/Igroteka) — [play online](https://xispx.github.io/Igroteka/): 50 mini-games in pure JS
-- ⚙️ Home lab automation with Python and Bash
+## Stack
+
+<p align="center">
+  <img alt="C++, C, Python, Bash, Linux, Git" src="https://skillicons.dev/icons?i=cpp%2Cc%2Cpython%2Cbash%2Clinux%2Cgit&amp;theme=dark"/>
+</p>
 
 ## GitHub stats
 
@@ -24,4 +30,4 @@ Embedded & IoT developer. I build smartwatch firmware on ESP32-S3 with LVGL UIs,
   </picture>
 </p>
 
-*Cards refresh daily via GitHub Actions.*
+<p align="center"><sub>Cards refresh daily via GitHub Actions · <img alt="Profile views" src="https://komarev.com/ghpvc/?username=xISPx&amp;color=58a6ff&amp;style=flat-square&amp;label=VIEWS"/></sub></p>

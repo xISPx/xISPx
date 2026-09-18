@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="150" viewBox="0 0 460 150" role="img" aria-label="Igroteka — 15 mini-games in vanilla JS">
+  <defs>
+    <linearGradient id="cg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#161b22"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34f5a5"/>
+      <stop offset="1" stop-color="#4dd7ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="459" height="149" rx="14" fill="url(#cg)" stroke="#30363d"/>
+  <rect x="26" y="0" width="120" height="4" rx="2" fill="url(#acc)"/>
+
+  <rect x="30" y="47" width="56" height="56" rx="12" fill="#34f5a5" fill-opacity="0.08" stroke="#34f5a5" stroke-opacity="0.35"/>
+  <g stroke="#34f5a5" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="40" y="66" width="36" height="20" rx="10"/>
+    <path d="M48 76h8M52 72v8"/>
+  </g>
+  <circle cx="70" cy="72" r="2.6" fill="#34f5a5"/>
+  <circle cx="75" cy="79" r="2.6" fill="#34f5a5"/>
+
+  <text x="106" y="60" font-family="'Cascadia Code','JetBrains Mono',Consolas,monospace" font-size="25" font-weight="700" fill="#e6edf3" letter-spacing="1.5">IGROTEKA</text>
+  <text x="106" y="86" font-family="'Segoe UI',system-ui,sans-serif" font-size="16" fill="#8b949e">15 mini-games in pure vanilla JS</text>
+
+  <g font-family="'Cascadia Code','JetBrains Mono',Consolas,monospace" font-size="14">
+    <rect x="106" y="102" width="105" height="26" rx="13" fill="#34f5a5" fill-opacity="0.10" stroke="#34f5a5" stroke-opacity="0.40"/>
+    <text x="158" y="119" text-anchor="middle" fill="#34f5a5">vanilla JS</text>
+    <rect x="219" y="102" width="72" height="26" rx="13" fill="#4dd7ff" fill-opacity="0.10" stroke="#4dd7ff" stroke-opacity="0.40"/>
+    <text x="255" y="119" text-anchor="middle" fill="#4dd7ff">0 deps</text>
+    <rect x="299" y="102" width="66" height="26" rx="13" fill="#b388ff" fill-opacity="0.10" stroke="#b388ff" stroke-opacity="0.40"/>
+    <text x="332" y="119" text-anchor="middle" fill="#b388ff">RU/EN</text>
+  </g>
+
+  <text x="440" y="135" text-anchor="end" font-family="'Cascadia Code',monospace" font-size="13" fill="#3d444d">&gt; play</text>
+</svg>

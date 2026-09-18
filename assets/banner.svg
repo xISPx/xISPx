@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="xISPx — Embedded and IoT developer">
+  <defs>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e6edf3"/>
+      <stop offset="1" stop-color="#9aa7b3"/>
+    </linearGradient>
+    <linearGradient id="divGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.5" stop-color="#7ee787"/>
+      <stop offset="1" stop-color="#d2a8ff"/>
+    </linearGradient>
+    <radialGradient id="glowBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowGreen" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7ee787" stop-opacity="0.11"/>
+      <stop offset="1" stop-color="#7ee787" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d2a8ff" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#d2a8ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#8b949e" stroke-opacity="0.055"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="#0d1117"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <circle cx="170" cy="20" r="250" fill="url(#glowBlue)"/>
+  <circle cx="1040" cy="300" r="270" fill="url(#glowGreen)"/>
+  <circle cx="600" cy="340" r="230" fill="url(#glowPurple)"/>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="12" fill="none" stroke="#30363d"/>
+
+  <text x="580" y="138" text-anchor="middle" font-family="'Cascadia Code','JetBrains Mono','Fira Code',Consolas,monospace" font-size="84" font-weight="700" fill="url(#nameGrad)" letter-spacing="6">xISPx</text>
+  <rect x="724" y="82" width="20" height="62" rx="3" fill="#7ee787">
+    <animate attributeName="opacity" values="1;0;1" dur="1.4s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="600" y="184" text-anchor="middle" font-family="'Cascadia Code','JetBrains Mono',Consolas,monospace" font-size="21" fill="#8b949e" letter-spacing="7">EMBEDDED &amp; IOT DEVELOPER</text>
+
+  <rect x="350" y="206" width="500" height="2" rx="1" fill="url(#divGrad)"/>
+
+  <g font-family="'Cascadia Code','JetBrains Mono',Consolas,monospace" font-size="15">
+    <rect x="324" y="230" width="104" height="40" rx="20" fill="#58a6ff" fill-opacity="0.10" stroke="#58a6ff" stroke-opacity="0.45"/>
+    <text x="376" y="255" text-anchor="middle" fill="#58a6ff">ESP32-S3</text>
+
+    <rect x="442" y="230" width="84" height="40" rx="20" fill="#7ee787" fill-opacity="0.10" stroke="#7ee787" stroke-opacity="0.45"/>
+    <text x="484" y="255" text-anchor="middle" fill="#7ee787">LVGL 9</text>
+
+    <rect x="540" y="230" width="104" height="40" rx="20" fill="#ffa657" fill-opacity="0.10" stroke="#ffa657" stroke-opacity="0.45"/>
+    <text x="592" y="255" text-anchor="middle" fill="#ffa657">FreeRTOS</text>
+
+    <rect x="658" y="230" width="84" height="40" rx="20" fill="#d2a8ff" fill-opacity="0.10" stroke="#d2a8ff" stroke-opacity="0.45"/>
+    <text x="700" y="255" text-anchor="middle" fill="#d2a8ff">Python</text>
+
+    <rect x="756" y="230" width="120" height="40" rx="20" fill="#f7df1e" fill-opacity="0.10" stroke="#f7df1e" stroke-opacity="0.45"/>
+    <text x="816" y="255" text-anchor="middle" fill="#f7df1e">Vanilla JS</text>
+  </g>
+</svg>

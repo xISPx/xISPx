@@ -1,14 +1,20 @@
-<p align="center"><sub><a href="README.md">English</a> · <b>Русский</b></sub></p>
+<p align="right"><sub><a href="README.md">English</a> · <b>Русский</b></sub></p>
 
-# Привет, я xISPx
+<p align="center">
+  <img width="100%" alt="xISPx — разработчик встраиваемых систем и IoT" src="assets/banner.svg"/>
+</p>
 
-Разработчик встраиваемых систем и IoT. Делаю прошивку смарт-часов на ESP32-S3 с интерфейсами на LVGL, браузерные мини-игры на чистом JS и инструменты автоматизации на Python и Bash.
+## Проекты
 
-## Обо мне
+<p align="center">
+  <a href="https://github.com/xISPx/Igroteka"><img width="32.5%" alt="Игротека — 15 мини-игр на чистом JS, играть онлайн" src="assets/card-igroteka.svg"/></a><a href="https://github.com/xISPx/ESP32-S3-Touch-AMOLED-2.06"><img width="32.5%" alt="Прошивка смарт-часов на ESP32-S3 — LVGL 9, AMOLED, голосовой AI" src="assets/card-watch.svg"/></a><a href="https://github.com/xISPx/zcode-russifier"><img width="32.5%" alt="Русификатор ZCode — полный русский интерфейс ZCode Desktop" src="assets/card-russifier.svg"/></a>
+</p>
 
-- 🔧 Прототип смарт-часов на ESP32-S3 — AMOLED 2.06", LVGL, PMU, IMU, аудиокодек
-- 🕹️ [Игротека](https://github.com/xISPx/Igroteka) — [играть онлайн](https://xispx.github.io/Igroteka/): 50 мини-игр на чистом JS
-- ⚙️ Автоматизация домашней лаборатории на Python и Bash
+## Стек
+
+<p align="center">
+  <img alt="C++, C, Python, Bash, Linux, Git" src="https://skillicons.dev/icons?i=cpp%2Cc%2Cpython%2Cbash%2Clinux%2Cgit&amp;theme=dark"/>
+</p>
 
 ## Статистика GitHub
 
@@ -24,4 +30,4 @@
   </picture>
 </p>
 
-*Карточки обновляются ежедневно через GitHub Actions.*
+<p align="center"><sub>Карточки обновляются ежедневно через GitHub Actions · <img alt="Просмотры профиля" src="https://komarev.com/ghpvc/?username=xISPx&amp;color=58a6ff&amp;style=flat-square&amp;label=VIEWS"/></sub></p>
