@@ -30,4 +30,4 @@
   </picture>
 </p>
 
-<p align="center"><sub>Cards refresh daily via GitHub Actions · <img alt="Profile views" src="https://komarev.com/ghpvc/?username=xISPx&amp;color=58a6ff&amp;style=flat-square&amp;label=VIEWS"/></sub></p>
+<p align="center"><sub><img alt="Profile views" src="https://komarev.com/ghpvc/?username=xISPx&amp;color=58a6ff&amp;style=flat-square&amp;label=VIEWS"/></sub></p>
