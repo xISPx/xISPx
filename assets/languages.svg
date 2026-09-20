@@ -28,7 +28,7 @@
 <rect x="390.0" y="58" width="1.2" height="14" fill="#3572a5"/>
 <rect x="391.2" y="58" width="0.5" height="14" fill="#89e051"/>
 <rect x="391.7" y="58" width="0.2" height="14" fill="#c2b280"/>
-<rect x="391.9" y="58" width="0.1" height="14" fill="#8b949e"/>
+<rect x="391.8" y="58" width="0.2" height="14" fill="#8b949e"/>
 </g>
 <circle cx="40" cy="100" r="5" fill="#555555"/>
 <text class="name" x="52" y="104">C</text>
