@@ -20,9 +20,9 @@
 <rect class="accent" x="28" y="49" width="42" height="3" rx="1.5"/>
 <clipPath id="round"><rect x="28" y="58" width="364" height="14" rx="7"/></clipPath>
 <g clip-path="url(#round)">
-<rect x="28.0" y="58" width="292.6" height="14" fill="#555555"/>
-<rect x="320.6" y="58" width="35.9" height="14" fill="#f34b7d"/>
-<rect x="356.5" y="58" width="25.0" height="14" fill="#f1e05a"/>
+<rect x="28.0" y="58" width="292.4" height="14" fill="#555555"/>
+<rect x="320.4" y="58" width="35.9" height="14" fill="#f34b7d"/>
+<rect x="356.3" y="58" width="25.2" height="14" fill="#f1e05a"/>
 <rect x="381.5" y="58" width="6.1" height="14" fill="#e34c26"/>
 <rect x="387.6" y="58" width="2.4" height="14" fill="#563d7c"/>
 <rect x="390.0" y="58" width="1.2" height="14" fill="#3572a5"/>
@@ -32,7 +32,7 @@
 </g>
 <circle cx="40" cy="100" r="5" fill="#555555"/>
 <text class="name" x="52" y="104">C</text>
-<text class="pct" x="206" y="104" text-anchor="end">80.4%</text>
+<text class="pct" x="206" y="104" text-anchor="end">80.3%</text>
 <circle cx="230" cy="100" r="5" fill="#f34b7d"/>
 <text class="name" x="242" y="104">C++</text>
 <text class="pct" x="396" y="104" text-anchor="end">9.9%</text>
