@@ -19,11 +19,11 @@
 <text class="title" x="28" y="40">GitHub Stats</text>
 <rect class="accent" x="28" y="49" width="42" height="3" rx="1.5"/>
 <text class="lbl" x="36" y="123">Public repos</text>
-<text class="val" x="36" y="153">8</text>
+<text class="val" x="36" y="153">9</text>
 <text class="lbl" x="236" y="123">Stars earned</text>
 <text class="val" x="236" y="153">4</text>
 <text class="lbl" x="36" y="181">Followers</text>
-<text class="val" x="36" y="211">17</text>
+<text class="val" x="36" y="211">18</text>
 <text class="lbl" x="236" y="181">Joined GitHub</text>
 <text class="val-sm" x="236" y="211">Mar 2025</text>
 </svg>
