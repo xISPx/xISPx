@@ -30,4 +30,4 @@
   </picture>
 </p>
 
-<p align="center"><sub>Карточки обновляются ежедневно через GitHub Actions · <img alt="Просмотры профиля" src="https://komarev.com/ghpvc/?username=xISPx&amp;color=58a6ff&amp;style=flat-square&amp;label=VIEWS"/></sub></p>
+<p <img alt="Просмотры профиля" src="https://komarev.com/ghpvc/?username=xISPx&amp;color=58a6ff&amp;style=flat-square&amp;label=VIEWS"/></sub></p>
